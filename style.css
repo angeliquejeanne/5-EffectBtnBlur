@@ -20,7 +20,12 @@ body {
     cursor: pointer;
     margin: 30px;
 }
-
+.Btn:nth-child(2) {
+    background: lightgrey;
+}
+.Btn:nth-child(3) {
+    background: grey;
+}
 .Blur {
     filter: blur(3px);
     opacity: 0.5;
