@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.Btn {
+    width: 150px;
+    padding: 30px;
+    text-align: center;
+    background: snow;
+    border: 3px solid red;
+    box-shadow: 0 0 25px 0 rgba(248, 248, 248, 0.5);
+    border-radius: 3px;
+    transition: 0.2s all;
+    cursor: pointer;
+    margin: 30px;
+}
+
+.Blur {
+    filter: blur(3px);
+    opacity: 0.5;
+    transform: scale(0.98);
+    box-shadow: none;
+}
